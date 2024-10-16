@@ -12,7 +12,10 @@ footer {
     padding: 0 15px;
 }
 #logo {
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
 }
 header {
     background-color: #263248;
@@ -27,6 +30,10 @@ header h1 a {
     text-decoration: none;
 }
 /* nav bar styling */
+nav {
+    overflow: hidden;
+    transition: height 0.5s;
+}
 nav ul {
     list-style: none;
     padding-left: 0;
@@ -51,7 +58,12 @@ nav ul li a {
     width: 100%;
     height: auto;
 }
-
+.burger>.line {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+}
 
 
 footer {

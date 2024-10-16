@@ -19,6 +19,13 @@ header h1 a:hover {
 #logo {
   padding: 10px;
 }
+.burger {
+  display: none;
+}
+nav {
+  /* for burger menu */
+  overflow: auto;
+}
 nav li a:hover {
   color: #7e8aa2;
 }
